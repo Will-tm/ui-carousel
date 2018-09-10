@@ -45,7 +45,7 @@ angular.module('ui.carousel.providers').provider('Carousel', function() {
       },
       prev: () => {
         this.prev();
-      },
+      }
     };
   }];
 });
