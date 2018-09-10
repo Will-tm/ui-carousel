@@ -39,7 +39,13 @@ angular.module('ui.carousel.providers').provider('Carousel', function() {
       },
       getOptions: () => {
         return this.options;
-      }
+      },
+      next: () => {
+        this.next();
+      },
+      prev: () => {
+        this.prev();
+      },
     };
   }];
 });
